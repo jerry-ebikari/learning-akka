@@ -1,6 +1,7 @@
 package com.ebikari.messages;
 
 public class SetRequest {
+
     private final String key;
     private final Object value;
 
