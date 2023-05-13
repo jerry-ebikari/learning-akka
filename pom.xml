@@ -9,7 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <properties>
-        <akka.version>2.3.6</akka.version>
+        <akka.version>2.8.2</akka.version>
         <junit.version>5.9.2</junit.version>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
@@ -18,7 +18,7 @@
     <dependencies>
         <dependency>
             <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-actor_2.11</artifactId>
+            <artifactId>akka-actor_2.12</artifactId>
             <version>${akka.version}</version>
         </dependency>
 
@@ -31,7 +31,7 @@
 
         <dependency>
             <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-testkit_2.11</artifactId>
+            <artifactId>akka-testkit_2.12</artifactId>
             <version>${akka.version}</version>
             <scope>test</scope>
         </dependency>
