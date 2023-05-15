@@ -35,6 +35,12 @@
             <version>${akka.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.scala-lang.modules</groupId>
+            <artifactId>scala-java8-compat_2.12</artifactId>
+            <version>1.0.2</version>
+        </dependency>
     </dependencies>
 
 </project>
